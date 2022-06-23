@@ -131,9 +131,9 @@ def codex_query_and_plan(
     )
     print(success, out)
 
-    prompt = create_prompt(predicates, objects, command_type, out)
+    prompt = create_prompt(predicates, objects, "TRANSLATE_TO_NL", out)
     completion = get_completion(prompt, temperature=0.0, stop="\n")
-    print(completion)
+    print("First, you " + completion)
 
 
 def main():

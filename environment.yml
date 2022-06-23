@@ -1,0 +1,13 @@
+name: codex_pddl
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.7.7
+  - matplotlib
+  - numpy
+  - openai
+  - pip
+  - pip:
+    - pddlgym
+    # - git+https://github.com/ronuchit/pddlgym_planners.git (Doesn't work, see https://github.com/ronuchit/pddlgym_planners/issues/5)
