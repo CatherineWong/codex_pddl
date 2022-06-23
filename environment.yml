@@ -10,4 +10,4 @@ dependencies:
   - pip
   - pip:
     - pddlgym
-    # - git+https://github.com/ronuchit/pddlgym_planners.git (Doesn't work, see https://github.com/ronuchit/pddlgym_planners/issues/5)
+    - git+https://github.com/ronuchit/pddlgym_planners.git
