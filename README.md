@@ -2,7 +2,7 @@ Steps to install (conda, preferred):
 - brew install cmake coreutils
 - conda env create -f environment.yml
 - conda activate codex_pddl
-- git clone https://github.com/ronuchit/pddlgym_planners
+- git clone https://github.com/ronuchit/pddlgym_planners into this repo.
 - cd pddlgym_planners/FD; ./build.py release
 
 Steps to install (pip):
